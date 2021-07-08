@@ -47,4 +47,6 @@ function fetchResults(e){
 function showResults() {
     var theResults = document.getElementById("results");
     theResults.style.display = "block";  // <-- Set it to block
+    var nav = document.getElementById("navigation");
+    nav.style.display = "flex";
 }

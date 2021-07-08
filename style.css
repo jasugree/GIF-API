@@ -148,9 +148,30 @@ hr::after {
 	border-radius: 100px;
 	padding: 5px 20px;
 }
-
-
-
+.nav{
+	border-radius: 100px;
+	text-align: center;
+	margin: 0;
+	display: inline;
+	padding: 10px 10px 8px 20px;
+	width: 200px;
+}
+nav{
+	display: flex;
+	justify-content: space-between;
+}
+.results{
+	margin-bottom: 2rem;
+}
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
 @media only screen and (max-width: 1024px) {
 	.searched-gif {	
 		width: 32%;
@@ -196,4 +217,5 @@ hr::after {
 	form{
 		max-width: 90vw !important;
 	}
+	
   }  

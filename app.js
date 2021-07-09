@@ -11,7 +11,8 @@ const searchForm = document.querySelector('form');
 searchForm.addEventListener('submit', fetchResults);
 
 //NAVIGATION
-var nav = document.getElementById("navigation");
+let nav = document.getElementById("navigation");
+let body = document.getElementById("body");
 
 
 // fetch(`${baseURL}?api_key=${key}&tag=Nintendo`)
@@ -48,6 +49,7 @@ function showResults() {
     theResults.style.display = "block";  // <-- Set it to block
     nav.style.display = "flex";
     nav.classList.add("mobile");
+    body.classList.add("show-top");
 }
 
 

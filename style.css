@@ -36,6 +36,9 @@ h1 {
 	padding-top: 5rem;
 	padding-bottom: 2rem;
 }
+.show-top{
+	display: block;
+}
 .row {
 	background: #fce6ff;
 	padding: 2rem;
@@ -118,6 +121,7 @@ button:hover {
 }
 .container {
 	max-width: 1000px !important;
+	
 }
 hr {
 	margin-top: 50px;
@@ -160,6 +164,7 @@ hr::after {
 nav {
 	display: flex;
 	justify-content: space-between;
+	padding-bottom: 100px;
 }
 .results {
 	margin-bottom: 2rem;

@@ -14,11 +14,6 @@ searchForm.addEventListener('submit', fetchResults);
 let nav = document.getElementById("navigation");
 let body = document.getElementById("body");
 
-
-// fetch(`${baseURL}?api_key=${key}&tag=Nintendo`)
-//     .then(response => response.json())
-//     .then(json => displayImage(json));
-
 nav.style.display = "none";
 
 function fetchResults(e){
@@ -77,4 +72,33 @@ function fetchPreviousPage(e){
     }
     fetchResults(e);
     console.log('Page:', pageNumber);
+}
+
+function prevPageButtonHide(){
+    nextButton.style.opacity = "1";
+    if (pageNumber == 0){
+        prevButton.style.opacity = "0.25";
+        prevButton.style.cursor = "default";
+    } else {
+        prevButton.style.opacity = "1";
+        prevButton.style.cursor = "pointer";
+    }
+}
+
+prevPageButtonHide();
+nextButton.addEventListener('click', prevPageButtonHide);
+prevButton.addEventListener('click', prevPageButtonHide);
+
+let gifLibrary = document.querySelector('.gif-query');
+
+nextButton.addEventListener('click', emptyResults);
+function emptyResults(){
+    if (gifLibrary.childNodes.length == 8){
+        console.log('results!');
+    } else{
+        alert('There are no more gifs available, Sorry!');
+        nextButton.style.opacity = "0.25";
+        nextButton.style.cursor = "default";
+        
+    }
 }

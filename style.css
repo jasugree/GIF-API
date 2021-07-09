@@ -229,4 +229,7 @@ body {
 		width: 100%;
 		margin-bottom: 1rem;
 	}
+	.results {
+		padding: 2rem 1rem;
+	}
 }

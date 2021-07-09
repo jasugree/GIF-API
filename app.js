@@ -10,12 +10,15 @@ const searchForm = document.querySelector('form');
 //BUTTON TRIGGER
 searchForm.addEventListener('submit', fetchResults);
 
+//NAVIGATION
+var nav = document.getElementById("navigation");
+
 
 // fetch(`${baseURL}?api_key=${key}&tag=Nintendo`)
 //     .then(response => response.json())
 //     .then(json => displayImage(json));
 
-
+nav.style.display = "none";
 
 function fetchResults(e){
     e.preventDefault();
@@ -41,10 +44,10 @@ function fetchResults(e){
 }
 
 function showResults() {
-    var theResults = document.getElementById("results");
+    let theResults = document.getElementById("results");
     theResults.style.display = "block";  // <-- Set it to block
-    var nav = document.getElementById("navigation");
     nav.style.display = "flex";
+    nav.classList.add("mobile");
 }
 
 

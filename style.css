@@ -1,17 +1,16 @@
-section{
+section {
 	position: relative;
 }
 .custom-shape-divider-top-1625785909 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	overflow: hidden;
+	line-height: 0;
 	fill: #fce6ff;
 	z-index: -5;
 }
-
 
 .searched-gif {
 	border-radius: 5px;
@@ -22,20 +21,20 @@ section{
 body {
 	background-color: #f8ccff;
 	background-image: linear-gradient(to bottom right, #f8ccff, #e77bc3);
-	height: 100vh;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 h1 {
 	text-align: center;
-	font-family: 'Coiny', cursive;
+	font-family: "Coiny", cursive;
 	color: #ca4ca1;
 	font-size: 3rem;
 	margin-bottom: 25px;
 }
 .container {
 	padding-top: 5rem;
+	padding-bottom: 2rem;
 }
 .row {
 	background: #fce6ff;
@@ -44,14 +43,14 @@ h1 {
 	box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px,
 		rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px,
 		rgba(240, 46, 170, 0.05) 25px 25px;
-	border:solid #ef4db8 3px;
+	border: solid #ef4db8 3px;
 }
 
 .heading {
 	margin-bottom: 2rem;
 	padding: 4rem;
 }
-form{
+form {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -59,96 +58,98 @@ form{
 label {
 	display: block;
 	text-align: center;
-	font-family: 'Thasadith', sans-serif;
+	font-family: "Thasadith", sans-serif;
 	font-size: 1.5rem;
 	margin-bottom: 20px;
 }
-p{
-	margin: 0;	
+p {
+	margin: 0;
 }
 
-input{
+input {
 	background: white;
 	border: none;
 	border-radius: 50px 0px 0px 50px;
 	box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.2);
 	padding: 12px 20px;
-	font-family: 'Thasadith', sans-serif;
+	font-family: "Thasadith", sans-serif;
 	color: #ca4ca1;
-	border:solid #ca4ca1 3px;
+	border: solid #ca4ca1 3px;
 	border-right: none;
 }
 
-button{
+button {
 	border: none;
-	background:#ca4ca1;
+	background: #ca4ca1;
 	color: #fef4ff;
 	padding: 10px 10px 8px 20px;
-	border-radius: 0px 50px 50px 0px; 
+	border-radius: 0px 50px 50px 0px;
 	text-transform: uppercase;
-	min-width:160px;
-	font-family: 'Coiny', cursive;
+	min-width: 160px;
+	font-family: "Coiny", cursive;
 	font-size: 1.25rem;
-	border:solid #ca4ca1 3px;
-	
+	border: solid #ca4ca1 3px;
 }
-button:hover{
+button:hover {
 	background: #f25bc2;
-	border:solid #f25bc2 3px;
-	transition: all .4s ease-in-out;
-
+	border: solid #f25bc2 3px;
+	transition: all 0.4s ease-in-out;
 }
-#arrow{
+#arrow {
 	max-width: 1.25rem;
 	margin-left: 10px;
 	margin-top: -5px;
 }
-::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+::-webkit-input-placeholder {
+	/* Chrome/Opera/Safari */
 	color: #ca4ca175;
-  }
-  ::-moz-placeholder { /* Firefox 19+ */
+}
+::-moz-placeholder {
+	/* Firefox 19+ */
 	color: #ca4ca175;
-  }
-  :-ms-input-placeholder { /* IE 10+ */
+}
+:-ms-input-placeholder {
+	/* IE 10+ */
 	color: #ca4ca175;
-  }
-  :-moz-placeholder { /* Firefox 18- */
+}
+:-moz-placeholder {
+	/* Firefox 18- */
 	color: #ca4ca175;
-  }
-  .container{
-	  max-width: 1000px !important;
-  }
-  hr{
+}
+.container {
+	max-width: 1000px !important;
+}
+hr {
 	margin-top: 50px;
-    margin-bottom: 50px;
-    background-color: #ca4ca1;
-    text-align: center;
-    line-height: 1px;
-    height: 1px;
-    font-size: 1.5rem;
-    border-style: solid;
-    border-color: #ca4ca1;
-    overflow: visible;
-    -webkit-box-sizing: content-box;
-    -moz-box-sizing: content-box;
-    -ms-box-sizing: content-box;
-    -o-box-sizing: content-box;
-    box-sizing: content-box;
+	margin-bottom: 50px;
+	background-color: #ca4ca1;
+	text-align: center;
+	line-height: 1px;
+	height: 1px;
+	font-size: 1.5rem;
+	border-style: solid;
+	border-color: #ca4ca1;
+	overflow: visible;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	-ms-box-sizing: content-box;
+	-o-box-sizing: content-box;
+	box-sizing: content-box;
 	opacity: 1 !important;
 }
 hr::after {
-    content: "✩ Feel free to search for whatever your heart desires ✩";
-    color: #ca4ca1;
-    display: inline;
-    background-color: #fce6ff;
-    width: 2px !important;
-    padding: 0px 30px;
-	font-family: 'Thasadith', sans-serif;
+	content: "✩ Feel free to search for whatever your heart desires ✩";
+	color: #ca4ca1;
+	display: inline;
+	background-color: #fce6ff;
+	width: 2px !important;
+	padding: 0px 30px;
+	font-family: "Thasadith", sans-serif;
 	border: solid #ca4ca1 1px;
 	border-radius: 100px;
 	padding: 5px 20px;
 }
-.nav{
+.nav {
 	border-radius: 100px;
 	text-align: center;
 	margin: 0;
@@ -156,37 +157,36 @@ hr::after {
 	padding: 10px 10px 8px 20px;
 	width: 200px;
 }
-nav{
+nav {
 	display: flex;
 	justify-content: space-between;
 }
-.results{
+.results {
 	margin-bottom: 2rem;
 }
 html {
-    height: 100%;
+	height: 100%;
 }
 body {
-    height: 100%;
-    margin: 0;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+	height: 100%;
+	margin: 0;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 @media only screen and (max-width: 1024px) {
-	.searched-gif {	
+	.searched-gif {
 		width: 32%;
-		margin: .6%;
+		margin: 0.6%;
 	}
-  }
+}
 
-  @media only screen and (max-width: 767px) {
-	.searched-gif {	
+@media only screen and (max-width: 767px) {
+	.searched-gif {
 		width: 48%;
 		margin: 1%;
 	}
-	hr{
+	hr {
 		font-size: 0.7rem;
-
 	}
 	.heading {
 		margin-bottom: 2rem;
@@ -199,31 +199,37 @@ body {
 		background-color: #fce6ff;
 		width: 2px !important;
 		padding: 0px 30px;
-		font-family: 'Thasadith', sans-serif;
+		font-family: "Thasadith", sans-serif;
 		border: none;
 		border-radius: 100px;
 		padding: 0px;
 		overflow-wrap: break-word;
 	}
-	hr{
+	hr {
 		background-color: transparent;
 	}
-	h1{
+	h1 {
 		font-size: 2.2rem;
 	}
 	.container {
 		max-width: 95% !important;
 	}
-	form{
+	form {
 		max-width: 90vw !important;
 	}
 	.container {
 		display: inline;
-		padding-bottom: 50px;
 	}
-	body{
+	body {
 		display: block;
 		padding: 50px 25px;
 	}
-
-  }  
+	nav {
+		display: block !important;
+	}
+	button.nav.next, button.nav.prev {
+		display: block !important;
+		width: 100% !important;
+		margin-bottom: 1rem;
+	}
+}

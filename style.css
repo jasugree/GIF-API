@@ -217,7 +217,13 @@ body {
 	form{
 		max-width: 90vw !important;
 	}
-	body {
+	.container {
 		display: inline;
+		padding-bottom: 50px;
 	}
+	body{
+		display: block;
+		padding: 50px 25px;
+	}
+
   }  

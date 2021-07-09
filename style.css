@@ -30,7 +30,7 @@ h1 {
 	font-family: "Coiny", cursive;
 	color: #ca4ca1;
 	font-size: 3rem;
-	margin-bottom: 25px;
+	margin-bottom: 50px;
 }
 .container {
 	padding-top: 5rem;
@@ -125,7 +125,6 @@ button:hover {
 }
 hr {
 	margin-top: 50px;
-	margin-bottom: 50px;
 	background-color: #ca4ca1;
 	text-align: center;
 	line-height: 1px;
@@ -141,17 +140,21 @@ hr {
 	box-sizing: content-box;
 	opacity: 1 !important;
 }
-hr::after {
-	content: "✩ Feel free to search for whatever your heart desires ✩";
+.sub-header{
 	color: #ca4ca1;
-	display: inline;
 	background-color: #fce6ff;
-	width: 2px !important;
+	text-align: center;
 	padding: 0px 30px;
 	font-family: "Thasadith", sans-serif;
-	border: solid #ca4ca1 1px;
+	font-size: 1.5rem;
+	border: solid 1px #ca4ca1;
 	border-radius: 100px;
-	padding: 5px 20px;
+	padding: 10px 20px;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 650px;
+	margin-top: -45px;
+	margin-bottom: 50px;
 }
 .nav {
 	border-radius: 100px;
@@ -183,6 +186,12 @@ body {
 		width: 32%;
 		margin: 0.6%;
 	}
+	.sub-header{
+		font-size: 0.8rem;
+		padding-left: 10px;
+		padding-right: 10px;
+		margin-bottom: 25px;
+	}
 }
 
 @media only screen and (max-width: 767px) {
@@ -197,19 +206,7 @@ body {
 		margin-bottom: 2rem;
 		padding: 2rem 1rem;
 	}
-	hr::after {
-		content: "✩ Feel free to search for whatever your heart desires ✩";
-		color: #ca4ca1;
-		display: inline;
-		background-color: #fce6ff;
-		width: 2px !important;
-		padding: 0px 30px;
-		font-family: "Thasadith", sans-serif;
-		border: none;
-		border-radius: 100px;
-		padding: 0px;
-		overflow-wrap: break-word;
-	}
+
 	hr {
 		background-color: transparent;
 	}
@@ -224,10 +221,6 @@ body {
 	}
 	.container {
 		display: inline;
-	}
-	body {
-		display: block;
-		padding: 50px 25px;
 	}
 	.mobile {
 		display: block !important;
